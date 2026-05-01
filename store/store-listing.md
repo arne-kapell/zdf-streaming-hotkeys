@@ -42,14 +42,6 @@ Die Einstellungen werden über chrome.storage.sync geräteübergreifend gespeich
 
 Ein dezentes Banner zeigt kurz an, was gerade passiert – z. B. „+10 s" beim Vorspulen oder „🔇 Stumm" beim Stummschalten.
 
-─── TECHNISCHE DETAILS ─────────────────────
-
-  • Manifest V3 (aktuell & zukunftssicher)
-  • Nur eine Permission: storage (für Einstellungen) + tabs (für Icon-Status)
-  • Keine externen Abhängigkeiten, kein Tracking, keine Datenerhebung
-  • Hotkeys werden automatisch deaktiviert, wenn ein Eingabefeld den Fokus hat
-  • Funktioniert auf www.zdf.de und zdf.de
-
 ─── DATENSCHUTZ ────────────────────────────
 
 Diese Erweiterung sammelt, überträgt oder speichert keinerlei persönliche Daten.
@@ -61,18 +53,10 @@ Quellcode: https://github.com/arne-kapell/zdf-streaming-hotkeys
 ---
 
 ## Category
-**Productivity**
+**Entertainment**
 
 ## Language
 **Deutsch**
-
-## Screenshots
-
-| Datei | Beschreibung (caption im Store) |
-|---|---|
-| `screenshot-1.png` | Popup mit vollständiger Hotkey-Übersicht |
-| `screenshot-2.png` | OSD-Feedback-Banner beim Vorspulen |
-| `screenshot-3.png` | Konfigurierbare Einstellungen |
 
 ## Privacy disclosure (single-purpose description)
 
