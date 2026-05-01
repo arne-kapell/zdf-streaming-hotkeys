@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "test": "node test/test-live.js",
-    "build": "zip -r zdf-hotkeys.zip manifest.json content.js background.js overlay.css popup.html popup.css popup.js icons/"
+    "build": "zip -r \"zdf-hotkeys-$(node -p 'require(\"./package.json\").version').zip\" manifest.json content.js background.js overlay.css popup.html popup.css popup.js icons/"
   },
   "devDependencies": {
     "puppeteer-core": "^22.0.0"
