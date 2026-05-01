@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!--
+    ZDF Mediathek Hotkeys – store icon
+    Total canvas : 128 × 128 px
+    Artwork area : 96 × 96 px, offset (16, 16)  ← per CWS icon-size guidelines
+    Transparent padding of 16 px on every side.
+    No built-in rounded corners (Chrome clips them).
+    No border / frame. No large drop shadow.
+    Works on both light and dark backgrounds:
+      - dark body with a soft white glow stroke
+  -->
+
+  <!-- ── Key body (dark charcoal, 96×96, rx=18) ──────────── -->
+  <rect x="16" y="16" width="96" height="96" rx="18"
+        fill="#1e2228"/>
+
+  <!-- Subtle white inner stroke so icon reads on dark chrome -->
+  <rect x="16.75" y="16.75" width="94.5" height="94.5" rx="17.5"
+        fill="none" stroke="rgba(255,255,255,0.13)" stroke-width="1.5"/>
+
+  <!-- ── Play triangle (orange, pointing right) ──────────── -->
+  <!--  Vertically centred in the upper ~60 % of the key body.
+        Centre of key body = 64, 64.
+        Triangle tip at x=86, left edge at x=43, top/bottom at y=40/y=73.
+        Visual centre ≈ (43 + (86-43)/3, 56.5) ≈ (57, 56.5). Looks right. -->
+  <polygon points="43,40 43,74 86,57"
+           fill="#fa7d19"/>
+
+  <!-- ── Three keyboard-key caps (bottom strip) ────────────
+        Row of 3 equal caps, w=18 h=8 rx=2.5, gap=5 px.
+        Total width = 3×18 + 2×5 = 64 px → starts at 64-32 = 32 px.
+        y = 86 so they sit 6 px above the bottom of the key body (bottom=112). -->
+  <rect x="32" y="86" width="18" height="8" rx="2.5"
+        fill="#fa7d19" opacity="0.80"/>
+  <rect x="55" y="86" width="18" height="8" rx="2.5"
+        fill="#fa7d19" opacity="0.80"/>
+  <rect x="78" y="86" width="18" height="8" rx="2.5"
+        fill="#fa7d19" opacity="0.80"/>
+</svg>
