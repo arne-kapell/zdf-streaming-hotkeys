@@ -1,0 +1,12 @@
+{
+  "name": "zdf-streaming-hotkeys",
+  "version": "1.0.0",
+  "description": "Chrome-Extension: YouTube-ähnliche Hotkeys für die ZDF Mediathek",
+  "private": true,
+  "scripts": {
+    "test": "node test/test-live.js"
+  },
+  "dependencies": {
+    "puppeteer-core": "^22.0.0"
+  }
+}
